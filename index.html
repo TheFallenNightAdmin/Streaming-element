@@ -50,7 +50,7 @@
     position:absolute; inset:0;
     background:
       /* soft dark pool around the cam frame, keeps the photo calm behind the focal area */
-      radial-gradient(ellipse 33% 29% at 50% 56%, var(--void) 0%, var(--void) 28%, rgba(6,1,9,0) 72%),
+      radial-gradient(ellipse 33% 29% at 50% 41%, var(--void) 0%, var(--void) 28%, rgba(6,1,9,0) 72%),
       /* legibility wash so UI elements stay readable over the photo */
       linear-gradient(180deg, rgba(6,1,9,0.58) 0%, rgba(6,1,9,0.20) 26%, rgba(6,1,9,0.30) 68%, rgba(6,1,9,0.62) 100%),
       /* the skull + lightning artwork */
@@ -102,10 +102,10 @@
   /* ---------- banner ---------- */
   .banner-wrap{
     position:absolute;
-    top:3.2%;
+    top:2.6%;
     left:50%;
     transform:translateX(-50%);
-    width:42%;
+    width:19%;
     text-align:center;
     z-index:5;
   }
@@ -135,7 +135,7 @@
   .cam-frame{
     position:absolute;
     left:27%;
-    top:33%;
+    top:18%;
     width:46%;
     height:46%;
     z-index:4;
@@ -354,7 +354,7 @@
     <defs>
       <mask id="camHoleMask" maskContentUnits="objectBoundingBox">
         <rect x="0" y="0" width="1" height="1" fill="white"/>
-        <rect x="0.27" y="0.33" width="0.46" height="0.46" rx="0.012" fill="black"/>
+        <rect x="0.27" y="0.18" width="0.46" height="0.46" rx="0.012" fill="black"/>
       </mask>
     </defs>
   </svg>
